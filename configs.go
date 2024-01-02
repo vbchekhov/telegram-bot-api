@@ -1729,7 +1729,7 @@ type InvoiceConfig struct {
 	ProviderToken             string         // required
 	Currency                  string         // required
 	Prices                    []LabeledPrice // required
-	MaxTipAmount              int
+	MaxTipAmount              int			 // required
 	SuggestedTipAmounts       []int
 	StartParameter            string
 	ProviderData              string
